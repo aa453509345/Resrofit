@@ -1,0 +1,19 @@
+ext {
+    supportLibraryVersion = '23.1.1'
+    retrofitVersion = '2.0.0-beta1'
+
+    dependencies = [
+            appCompat: "com.android.support:appcompat-v7:$supportLibraryVersion",
+            cardView: "com.android.support:cardview-v7:$supportLibraryVersion",
+            recyclerView: "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            retrofit: "com.squareup.retrofit:retrofit:$retrofitVersion",
+            retrofitConverterGson: "com.squareup.retrofit:converter-gson:$retrofitVersion",
+            retrofitAdapterRxJava: "com.squareup.retrofit:adapter-rxjava:$retrofitVersion",
+            picasso: 'com.squareup.picasso:picasso:2.5.2',
+            rxAndroid: 'io.reactivex:rxandroid:1.0.1',
+            timber:'com.jakewharton.timber:timber:2.5.0',
+            jUnit:'junit:junit:4.12',
+//            tableview: 'de.codecrafters.tableview:tableview:0.9.5',
+            segment:'info.hoang8f:android-segmented:1.0.6'
+    ]
+}

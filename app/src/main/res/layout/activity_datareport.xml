@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segmented"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_checked_text_color="@color/colorPrimary"
+            segmentedgroup:sc_corner_radius="5dp"
+            segmentedgroup:sc_tint_color="@color/white">
+
+            <RadioButton
+                android:id="@+id/button1"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="实时数据" />
+
+            <RadioButton
+                android:id="@+id/button2"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="详细数据" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </LinearLayout>
+     <RelativeLayout
+
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+
+         >
+
+         <com.benmu.bmreport.widget.DataTableView
+             android:id="@+id/tableView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             custom:headerColor="@color/white"
+             custom:headerElevation="10" />
+
+         <com.benmu.bmreport.widget.BottomTips
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/bt"
+             android:layout_alignParentBottom="true"
+             />
+
+
+     </RelativeLayout>
+
+</LinearLayout>

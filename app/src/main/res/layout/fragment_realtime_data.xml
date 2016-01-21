@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.benmu.bmreport.view.fragment.RealtimeDataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.benmu.bmreport.widget.DataTableView
+        android:id="@+id/tableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:headerColor="@color/colorPrimary"
+        custom:headerElevation="10" />
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+*.apk
+# OS
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db

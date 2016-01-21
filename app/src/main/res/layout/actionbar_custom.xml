@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@id/action_bar_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:id="@id/action_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:id="@id/action_bar_tvitem_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="on_left_click"
+            android:textSize="@dimen/actionbar_actiontext_size"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@id/action_bar_ivitem_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:onClick="on_left_click"
+            android:src="@drawable/nav_back_big"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/action_bar_tvitem_webclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/action_bar_left"
+        android:clickable="true"
+        android:onClick="on_webclose_click"
+        android:text="关闭"
+        android:textColor="@color/white"
+        android:textSize="@dimen/actionbar_actiontext_size"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@id/tv_actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/actionbar_titlesize"/>
+
+
+    <FrameLayout
+        android:id="@id/action_bar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:id="@id/action_bar_tvitem_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="on_right_click"
+            android:text="right"
+            android:textColor="@color/white"
+            android:textSize="@dimen/actionbar_actiontext_size"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@id/action_bar_ivitem_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="on_right_click"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

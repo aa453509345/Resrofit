@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_tips"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xia"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/nav"
+            />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2bc6f6"
+            android:orientation="horizontal"
+            android:id="@+id/ll"
+            >
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="实时挂号数"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:drawableTop="@drawable/n_01"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--/>-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="实时挂号人数"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:drawableTop="@drawable/n_01"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="实时绑卡数"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:drawableTop="@drawable/n_01"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--/>-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">京医通数据统计</string>
+    <string name="error_404">找不到接口</string>
+    <string name="bundnum">绑卡数据</string>
+    <string name="WeiXinFoucus">微信关注数据</string>
+    <string name="regiestnum">挂号数据</string>
+    <string name="revisitnum">复诊数据</string>
+    <string name="rechargenum">充值数据</string>
+    <string name="forward">敬请期待</string>
+    <string name="empty_data">数据为空</string>
+    <string name="error_loading">加载错误,请稍后重试!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_bind_card">绑卡数据</string>
+</resources>
